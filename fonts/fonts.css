@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'PressStart2P-Regular';
+    font-variation-settings: 'wght' 400, 'wdth' 100;
     src: url(./PressStart2P-Regular.woff) format('woff');
     font-weight: normal;
     font-display: swap;
@@ -7,6 +8,7 @@
   
   @font-face {
     font-family: Inter;
+    font-variation-settings: 'wght' 200, 'wdth' 50;
     src:
       local(Inter),
       url(./Inter-Variable.woff2) format("woff2 supports variations"),
