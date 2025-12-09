@@ -19,6 +19,7 @@
       <p class="header-title">закрывающий тег</p>
     </header>
     <main>
+      <!-- section 1 !-->
      <section class="zero-sprint content__section">
         <h2 class="card-title">
           Фритрек и нулевой спринт: Подготовка к работе
@@ -56,6 +57,7 @@
         </div>
       </section>
 
+      <!-- section 2 !-->
       <section class="one-sprint content__section">
         <h2 class="card-title">
           1 спринт: Я — чистый лист
@@ -94,6 +96,7 @@
         </div>
       </section>
 
+      <!-- section 3 !-->
       <section class="two-sprint content__section">
         <h2 class="card-title">
           1 спринт: А если не получится?
@@ -130,6 +133,7 @@
         </div>
       </section>
 
+      <!-- section 4 !-->
       <section class="three-sprint content__section">
         <h2 class="card-title">
           2 спринт: Погоня за идеалом
@@ -167,6 +171,7 @@
         </div>
       </section>
 
+      <!-- section 5 !-->
       <section class="four-sprint content__section">
         <h2 class="card-title">
           2 спринт: О тех, кто рядом
@@ -205,6 +210,7 @@
         </div>
       </section>
 
+        <!-- section 5 !-->
       <section class="five-sprint content__section">
         <h2 class="card-title">
           3 спринт: Обходные стратегии
@@ -243,6 +249,7 @@
         </div>
       </section>
 
+        <!-- section 6 !-->
       <section class="six-sprint content__section">
         <h2 class="card-title">
           3 спринт: Когда опускаются руки
@@ -281,6 +288,7 @@
         </div>
       </section>
 
+      <!-- section 7 !-->
       <section class="seven-sprint content__section">
         <h2 class="card-title">
           «Сейчас я здесь»
@@ -318,6 +326,8 @@
           </div>
         </div>
       </section>
+
+      <!-- seve !-->
       <button class="dialog-button animated-button" type="button" onclick="window['dialog-floppy'].showModal();" aria-controls="dialog-floppy">
         <svg class="floppy-svg" viewBox="0 0 44 44">
           <use href="./svg/floppy.svg#floppy" />
@@ -326,6 +336,7 @@
       </button>
     </main>
 
+    <!-- seve message !-->
     <dialog id="dialog-floppy" class="dialog">
       <div class="dialog-container">
         <div class="dialog-item">
@@ -335,7 +346,7 @@
           <span class="dialog-text">Вставьте дискету, чтобы продолжить</span>
         </div>
         <div class="ok__dialog-button">
-            <button class="animated-button" type="button" onclick="window['dialog-floppy'].close();">
+            <button class="animated-button" type="button" onclick="event.preventDefault(); window['dialog-floppy'].close();">
               <span class="button__text ok">OK</span>
             </button>
         </div>
